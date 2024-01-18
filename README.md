@@ -1,6 +1,7 @@
-To run this project please replace actual values for postgres database
+To run this project please replace actual values in the main.go for postgres database
 
-```db, err = gorm.Open(
+```
+db, err = gorm.Open(
 		"postgres",
 		"host=localhost port=5432 user=postgres dbname=test password=postgres sslmode=disable",
 	)
